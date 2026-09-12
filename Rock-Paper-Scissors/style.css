@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+
+    background:
+        radial-gradient(circle at top, #450a0a, #000000 60%);
+
+    color: #fff7ed;
+}
+
+h1 {
+     background: linear-gradient(
+        90deg,
+        #450a0a,
+        #991b1ba8,
+        #7f1d1d71
+    );
+
+    color: #fff7ed;
+    height: 5rem;
+    line-height: 5rem;
+
+    text-shadow: 0 0 10px #fca5a5;
+
+    box-shadow:
+        0 4px 15px rgba(239, 68, 68, 0.35);
+}
+
+#box {
+    
+    width: 40%;
+    margin: 2rem auto;
+    padding: 1rem;
+    height: 75%;
+
+    
+
+    
+
+    border: 2px solid #ef4444;
+    border-radius: 15px;
+
+    box-shadow:
+        0 0 15px rgba(239, 68, 68, 0.45),
+        0 0 30px rgba(245, 158, 11, 0.15);
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+.choice{
+    height: 190px;
+    width: 190px;
+
+
+   
+}
+
+
+
+
+
+
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: all 0.2s ease-in-out;
+}
+
+#rock img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:
+        0 0 15px #ff6b00,
+        0 0 30px #ff0080;
+}
+
+#paper img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:
+        0 0 15px #8b5cf6,
+        0 0 30px #a855f7;
+}
+
+#scissors img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow:
+        0 0 15px #3b82f6,
+        0 0 30px #06b6d4;
+}
+
+#rock img{
+    margin-top: 30px;
+}
+
+#scissors img{
+    margin-top: 30px;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    gap:80px
+
+}
+
+.score{
+    
+    font-size: 2rem;
+    color: #fff7ed;
+}
+
+.msg-container{
+    margin-top: 8rem;
+}
+
+
+#msg{
+    font-size: 2rem;
+    background: linear-gradient(
+        135deg,
+        #7f1d1d,
+        #991b1b
+    );
+    display:inline;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #f87171;
+
+    box-shadow:
+        0 0 15px rgba(239, 68, 68, 0.4);
+}
+
